@@ -14,3 +14,9 @@ To view the pizza website download all of the files and open views/pizza.html in
 4. load  google fonts via js to solve blocking issue
 5. minified some images.
 
+
+## steps to Optimize to Pizza Site
+
+1. Changed all instances of querySelector to the more efficient getElementById and getElementByClassName depending on whether a class or id is needed.
+
+2. inline css.
